@@ -1,15 +1,31 @@
-.photo {
+.yellow-background {
   text-align: center;
-  margin-top: 29px;
+  color: white;
+  background-color: $yellow;
+  padding: 35px 0px;
+  img {
+    height: 130px;
+  }
+}
+
+.white-background {
+  text-align: center;
+  padding: 35px 0px;
   img {
     height: 220px;
   }
 }
 
-.description {
+.photo-description {
   text-align: center;
   h3 {
     font-size: 24px;
     color: $yellow;
+  }
+}
+
+#exemple {
+  img{
+    height: 500px;
   }
 }
