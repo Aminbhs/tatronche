@@ -6,8 +6,8 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Réservez une séance photo - Middleman</title>
-    <link href="stylesheets/application-7ce2796e.css" rel="stylesheet" />
+    <title>Réservez une séance photo - Tatronche</title>
+    <link href="stylesheets/application-44f8a791.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
@@ -21,9 +21,9 @@
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
 
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Nos photos</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Nos offres</a>
-    <a href="" class="navbar-wagon-item navbar-wagon-link">Réservez une séance</a>
+    <a href="#realisation" class="navbar-wagon-item navbar-wagon-link">Nos réalisations</a>
+    <a href="#" class="navbar-wagon-item navbar-wagon-link">Nos offres</a>
+    <a href="https://calendly.com/tatronche/solo/" class="navbar-wagon-item navbar-wagon-link" target="_blank">Réservez une séance</a>
   </div>
 
   <!-- Dropdown appearing on mobile only -->
@@ -31,30 +31,54 @@
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Host</a></li>
-        <li><a href="#">Trips</a></li>
-        <li><a href="#">Messagese</a></li>
+        <li><a href="#realisation">Nos réalisations</a></li>
+        <li><a href="#">Nos offres</a></li>
+        <li><a href="#">Réservez une séance</a></li>
       </ul>
     </div>
   </div>
 </div>
 
-    <div class="banner" style="background-image: linear-gradient(-225deg, rgba(255, 226, 89,0.6) 0%, rgba(255, 167, 81,0.6) 50%), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
+    <div class="banner" style="background-image: linear-gradient(-225deg, rgba(255, 226, 89,0.8) 0%, rgba(255, 167, 81,0.9) 50%), url('images/home-tatronche-24b41040.jpg');">
   <div class="banner-content">
     <h1>Freelance, démarquez-vous !</h1>
     <p>Faite une bonne premiére impression</p>
-    <a class="btn btn-info btn-lg">Réservez une séance photo</a>
+    <a href="https://calendly.com/tatronche/solo/" target="_blank" class="btn btn-info btn-lg">Réservez une séance photo</a>
   </div>
 </div>
 
-<div class="container">
-  <div class="row">
-      <div class="photo">
+<div class="wrapper yellow-background" id="why">
+  <h2>Pourquoi avoir une professionnelle?</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <img src="images/icone/confiance-ece527a7.svg" alt="Confiance" />
+        <h3>Inspirer confiance</h3>
+        <p>Les profils avec une photo reçoivent en moyenne 21x plus de visites sur Linkedin</p>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <img src="images/icone/demarquer-02ca5d7f.svg" alt="Demarquer" />
+        <h3>Vous démarquer</h3>
+        <p>Une belle photo de profil professionnelle c'est 5 fois plus de contacts sur Malt</p>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <img src="images/icone/missions-baad54e7.svg" alt="Missions" />
+        <h3>Décrocher plus de mission</h3>
+        <p>Augmentez le taux de réponses/ Acceptation/ Contacts.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper white-background" id="realisation">
+  <h2>Nos réalisations</h2>
+  <div class="container">
+    <div class="row">
           <div class="col-xs-12 col-sm-3">
             <div class="photo">
               <img src="images/photos/marine-16b5e035.jpg" alt="Marine" />
             </div>
-            <div class="description">
+            <div class="photo-description">
               <h3>Marine Kielbowicz</h3>
               <h4>Développeuse web</h4>
             </div>
@@ -63,7 +87,7 @@
             <div class="photo">
               <img src="images/photos/alexis-725ed605.jpg" alt="Alexis" />
             </div>
-            <div class="description">
+            <div class="photo-description">
               <h3>Alexis Girard</h3>
               <h4>Growth Marketer</h4>
             </div>
@@ -72,25 +96,85 @@
             <div class="photo">
               <img src="images/photos/clement-62fdf4b7.jpg" alt="Clement" />
             </div>
-            <div class="description">
+            <div class="photo-description">
               <h3>Clément Bringuier</h3>
-              <h4>Webmarketeur Freelance</h4>
+              <h4>Webmarketeur</h4>
             </div>
           </div>
           <div class="col-xs-12 col-sm-3">
             <div class="photo">
               <img src="images/photos/remi-f7eb695b.jpg" alt="Remi" />
             </div>
-            <div class="description">
+            <div class="photo-description">
               <h3>Rémi Barbe</h3>
               <h4>CTO / VP Engineering</h4>
             </div>
           </div>
     </div>
-
   </div>
 </div>
 
+<div class="wrapper yellow-background" id="solution">
+  <h2>Un service simple et efficace</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <img src="images/icone/simple-20424e66.svg" alt="Simple" />
+        <h3>Simple</h3>
+        <p>Réservez une séance photo en 45 secondes</p>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+         <img src="images/icone/adapte-c490e7d5.svg" alt="Adapte" />
+         <h3>Rapide</h3>
+         <p>Les photos retouchés sont disponible 48h aprés la prise de vue</p>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <img src="images/icone/authentique-857536e2.svg" alt="Authentique" />
+        <h3>Authentique</h3>
+        <p>Finis les fond gris tristounet ! Séance photo dans vos locaux.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper white-background" id="exemple">
+  <h2>Harmonisez votre image</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        <h3>Pour vos profil sociaux professionnels</h3>
+        <img src="images/icone/profil_social_network-3c17b295.png" alt="Profil social network" />
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <h3>Pour vos CV</h3>
+        <img src="images/icone/cv-76074584.png" alt="Cv" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper yellow-background" id="price">
+  <div class="container">
+    <h2>Notre offre</h2>
+    <p>Conçu par des freelances pour des freelances</p>
+
+    <div class="">
+      Prix
+
+    </div>
+  </div>
+</div>
+
+    <div class="footer">
+  <div class="footer-links">
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+  </div>
+  <div class="footer-copyright">
+    Made with <i class="fa fa-heart"></i>
+  </div>
+</div>
 
 
   </body>
