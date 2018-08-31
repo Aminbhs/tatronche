@@ -26,7 +26,8 @@
 
 #exemple {
   img{
-    height: 500px;
+    width: 88%;
+    height: 88%;
   }
 }
 
@@ -34,13 +35,23 @@
   border: 1px solid $orange;
   border-radius: .35rem;
   background-color: white;
+  padding: 0px 0px 17px 0px;
 }
 
 .background-pricing {
   color: white;
   background-color: $orange;
   h2 {
-    padding: 0px;
+    padding: 17px;
     margin: 0px;
   }
 }
+
+.pricing-content {
+  padding: 5px;
+  span {
+    color: grey;
+    font-size: 1.5rem;
+  }
+}
+
