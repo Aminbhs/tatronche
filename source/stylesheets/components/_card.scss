@@ -1,16 +1,31 @@
-.yellow-background {
+.yellow-background, .white-background {
   text-align: center;
+  padding-top: 35px;
+  padding-bottom: 66px;
+  h2 {
+    margin-bottom: 58px;
+  }
+  h3 {
+
+  }
+  ul {
+    padding-left: 0px;
+  }
+  ul li {
+    list-style-type: none;
+    padding-bottom: 16px;
+  }
+}
+
+.yellow-background {
   color: white;
-  background-color: $yellow;
-  padding: 35px 0px;
+  background-color: $blue;
   img {
     height: 220px;
   }
 }
 
 .white-background {
-  text-align: center;
-  padding: 35px 0px;
   img {
     height: 130px;
     fill: black;
@@ -19,8 +34,8 @@
 
 .photo-description {
   text-align: center;
-  h3 {
-    font-size: 24px;
+  h4 {
+    padding-bottom: 33px;
   }
 }
 
@@ -32,7 +47,7 @@
 }
 
 .contour-pricing {
-  border: 1px solid $orange;
+  border: 1px solid $blue;
   border-radius: .35rem;
   background-color: white;
   padding: 0px 0px 17px 0px;
@@ -40,7 +55,7 @@
 
 .background-pricing {
   color: white;
-  background-color: $orange;
+  background-color: $blue;
   h2 {
     padding: 17px;
     margin: 0px;
@@ -49,9 +64,19 @@
 
 .pricing-content {
   padding: 5px;
-  span {
-    color: grey;
-    font-size: 1.5rem;
-  }
 }
 
+#price {
+  h2 {
+    margin-bottom: 0px;
+  }
+  h3 {
+    padding-bottom: 23px;
+    font-size: 26px;
+      span {
+      color: grey;
+      font-size: 1.5rem;
+    }
+  }
+
+}

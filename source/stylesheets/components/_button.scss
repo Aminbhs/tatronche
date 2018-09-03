@@ -1,11 +1,13 @@
 .btn-blue {
+  transition: all .3s;
   background-color: $blue;
   color: white;
   border-radius: .35rem;
   padding: 10px 14px;
 }
 .btn-blue:hover {
+  transition: all .3s;
   color: white;
-  background-color: $orange;
+  background-color: $light-blue;
   text-decoration: none;
 }
