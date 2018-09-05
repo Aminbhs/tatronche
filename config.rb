@@ -22,7 +22,7 @@ activate :deploy do |deploy|
 end
 
 set :protocol, "https://"
-set :host, "tatronche.io"
+set :host, "tatronche.io/"
 set :port, 80
 
 
