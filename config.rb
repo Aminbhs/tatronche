@@ -20,3 +20,24 @@ activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
 end
+
+set :protocol, "https://"
+set :host, "tatronche.io"
+set :port, 80
+
+
+# get asset url
+helpers do
+  def host_with_port
+    [config[:host], optional_port].compact.join(':')
+  end
+
+  def optional_port
+    config[:port] unless config[:port].to_i == 80
+  end
+
+  def image_url(source)
+    config[:protocol] + host_with_port + image_path(source)
+  end
+
+end
